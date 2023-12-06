@@ -1,0 +1,37 @@
+body{
+	background: rgb(170, 170, 170);
+}
+#images-container svg{
+	transform: scale(4,4);
+	margin-top: 50px;
+	margin-bottom: 25px;
+	color: rgba(26, 26, 26, 0.774);
+}
+#images-container{
+	font-weight: bold;
+	color: rgb(29, 29, 29);
+	float: left;
+}
+#cart{
+	float:right;
+	background-color: rgb(228,229,231);
+	width: 500px;
+	height: 700px;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#cart svg{
+	transform: scale(2.1,2.1);
+	padding-left: 3px;
+	color: black;
+}
+#item{
+	border-radius: 10px;
+	border: 2px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: aliceblue;
+	margin-top: 7.5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
